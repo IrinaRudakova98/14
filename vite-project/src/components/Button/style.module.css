@@ -1,0 +1,33 @@
+.container{
+  display: flex;
+  margin-right: 100px;  
+}
+
+.container button{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.8em 2.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: border-color 0.25s; 
+  background-color: rgb(90, 86, 86);
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    position: absolute;
+      margin-left: 100px;
+      margin-top: 250px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .container {
+    position: absolute;
+      margin-left: 60px;
+      margin-top: 230px;
+  }
+}

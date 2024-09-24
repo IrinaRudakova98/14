@@ -1,0 +1,100 @@
+.container button{
+    margin-left: 20px;
+    background-color: blue;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    padding: 0em 0.7em;
+    font-size: 0.8em;
+    font-weight: 500;
+    font-family: inherit;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: border-color 0.25s; 
+}
+
+.container img{
+    height: 20px;
+    width: 20px;
+}
+
+.container p{
+    
+    font-size: 2em;
+    margin-top: 140px;
+    margin-left: 100px;
+}
+
+.container h4{
+   margin-left: 800px;
+   margin-top: -170px;
+   font-size: 1.2em;
+}
+
+.container hr{
+    margin-top: -50px;
+    margin-left: 620px;
+    border: none; 
+    background-color: #000; 
+    width: 2px; 
+    height: 320px; 
+    
+}
+
+.contact{
+   
+   margin-left: 800px; 
+   margin-top: -260px;
+   line-height: 300%;
+   font-size: 0.9em;
+
+}
+
+.contact a{
+   font-size: 1.2em;
+   color: black; 
+}
+
+.contact a:hover{
+    color: grey;
+}
+
+.container .number{
+    font-size: 0.7em;
+    margin-left: 600px;
+}
+
+@media screen and (max-width: 970px) {
+    .container hr{  
+        margin-left: 370px; 
+    }
+    .container h4{
+        margin-left: 400px;
+    }
+    .contact{
+        margin-left: 400px;
+    }
+    .container .number{
+        margin-left: 400px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .container{
+        margin-left: -70px;
+        margin-top: -100px;
+    }
+    .container hr{  
+        display: none;
+    }
+    .container h4{
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+    .contact{
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+    .container .number{
+        margin-left: 240px;
+    }
+}

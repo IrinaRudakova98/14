@@ -1,0 +1,140 @@
+
+
+.container{
+    margin-top: 50px;
+}
+
+.container p{
+    font-size: 1.3em;
+    margin-left: 100px;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container h2{
+    font-size: 2.5em;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.arrow{
+    width: 20px;
+    height: 20px;
+}
+
+.photo{
+    z-index: 0;
+    margin-top: 0px;
+    margin-left: 23px;
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.container button{
+    margin-right: 100px;
+    padding-right: 130px;
+    width: 20px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: border-color 0.25s; 
+    background-color: rgb(90, 86, 86);
+}
+
+.container h3{
+    margin-left: 600px;
+    margin-top: -450px;
+}
+
+.container ul{
+    margin-left: 600px;
+    margin-top: 40px;
+}
+
+.container h4{
+    font-size: 1.1em;
+    margin-left: 600px;
+    margin-top: 80px;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.contact p{
+    font-size: 1.2em;
+}
+
+.contact a{
+    font-size: 1.1em;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: black;
+}
+
+.contact a:hover{
+    color: gray;
+}
+
+@media screen and (max-width: 970px) {
+    .container ul{ 
+        margin-left: 400px; 
+        margin-top: 30px; 
+    }
+    .container h3{
+        margin-left: 400px;
+    }
+    .container h4{
+        margin-left: 400px;
+    }
+    .contact{
+        margin-left: 280px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .container h3{
+        margin-left: 40px;
+        margin-top: 60px;
+    }
+    .container ul{  
+        margin-left: 40px; 
+        margin-top: 20px;
+    }
+    .container h4{
+        margin-left: 40px;
+    }
+    .contact{
+        margin-left: -60px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container p{
+        margin-left: 70px;
+    }
+    .container h2{
+        margin-left: 40px;
+    }
+    .photo{
+        width: 230px;
+        height:280px;
+    }
+    .contact a{
+        margin-left: 70px;
+    }
+  }

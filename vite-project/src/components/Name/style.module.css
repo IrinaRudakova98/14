@@ -1,0 +1,19 @@
+.container{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.container h2{
+    font-size: 3em;
+}
+
+.container p{
+    font-size: 1.2em;
+    color: black;
+}
+
+@media screen and (max-width: 360px) {
+    .container {
+        margin-left: 40px;
+    }
+  }
